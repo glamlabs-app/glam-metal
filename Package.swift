@@ -1,12 +1,10 @@
-// swift-tools-version:5.1
-
-// requires SE-0271
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
     name: "MetalPetal",
-    platforms: [.macOS(.v10_13), .iOS(.v11), .tvOS(.v13)],
+    platforms: [.macOS(.v10_13), .iOS(.v16), .tvOS(.v13)],
     products: [
         .library(
             name: "MetalPetal",
